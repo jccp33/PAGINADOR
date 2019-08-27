@@ -1,0 +1,52 @@
+
+.title-pag{
+	font-family: Arial, Heveltica, sans-serif;
+	font-size: 15px;
+	text-align: center;
+}
+
+.paginator{
+	font-family: Arial, Heveltica, sans-serif;
+	font-size: 15px;
+	text-align: center;
+	overflow: hidden;
+	margin: auto;
+}
+
+.page{
+	display: inline-table;
+	width: 60px;
+	height: 20px;
+	padding: 2px;
+	margin: 2px;
+	background: #F2F2F2;
+	border: 1px solid #E6E6E6;
+	color: black;
+}
+
+.previus{
+	border-radius: 10px 0px 0px 10px;
+}
+
+.next{
+	border-radius: 0px 10px 10px 0px;
+}
+
+.page:hover{
+	cursor: pointer;
+	padding-top: 5px;
+	margin-top: 5px;
+	width: 70px;
+	height: 30px;
+	text-align:center;
+	background: #D8D8D8;
+	border: 1px solid #A4A4A4;
+}
+
+.page:active{
+	background: #585858;
+}
+
+.page:hover div{
+	margin-top: 5px;
+}
